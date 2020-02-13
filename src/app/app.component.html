@@ -1,0 +1,38 @@
+<div style="margin: 30px;">
+  <h2 style="text-align: center;">{{'pdi' | translate}}</h2>
+  <hr>
+  <p>{{ 'ci' | translate }}
+    <select #langSelect (change)="changeLang(langSelect.value)">
+      <option *ngFor="let lang of langs" [value]="lang">
+        {{ lang }}
+      </option>
+    </select>
+  </p>
+  <div>
+
+      <div class="row form-group">
+        <div class="col-sm-4">
+          <label>{{ 'Nombre' | translate }}</label>
+          <input type="text" class="form-control" placeholder="{{'itn' | translate}}">
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-sm-4">
+          <label>{{ 'Apellido' | translate }}</label>
+          <input type="text" class="form-control" placeholder="{{'ita' | translate}}">
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-sm-4">
+          <label>{{ 'Telefono' | translate }}</label>
+          <input type="tel" class="form-control" placeholder="{{'itt' | translate}}">
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-sm-4">
+          <button type="text" class="btn btn-success">{{ 'Guardar' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  
+</div>

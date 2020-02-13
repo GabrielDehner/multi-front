@@ -1,0 +1,11 @@
+{
+    "Nombre": "Nombre",
+    "Apellido": "Apellido",
+    "Telefono": "Teléfono",
+    "Guardar": "Guardar",
+    "itn":"Ingresa tu nombre",
+    "ita":"Ingresa tu apellido",
+    "itt":"Ingresa tu teléfono",
+    "pdi":"Prueba de los diferentes idiomas",
+    "ci":"Cambiar de idioma"
+}

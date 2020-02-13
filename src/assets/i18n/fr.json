@@ -1,0 +1,11 @@
+{
+    "Nombre": "Nom",
+    "Apellido": "Nom de famille",
+    "Telefono": "Téléphone",
+    "Guardar": "Sauvegarder",
+    "itn":"Entrez votre nom",
+    "ita":"Entrez votre nom nom de famille",
+    "itt":"Entrez votre téléphone",
+    "pdi":"Test des différentes langues",
+    "ci":"Changer de langue"
+}
